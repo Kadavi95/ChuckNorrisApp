@@ -1,0 +1,5 @@
+<ul *ngIf="arrayOfCategories">
+  <li *ngFor="let category of arrayOfCategories" (click)="showCategory(category)">
+    {{category}}
+  </li>
+</ul>
