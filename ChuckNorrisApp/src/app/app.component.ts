@@ -1,8 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { tap } from 'rxjs';
 import { MainServiceService } from './main-service.service';
-import { simpleJoke } from './main-service.service';
-
+import { simpleJoke } from './types';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',

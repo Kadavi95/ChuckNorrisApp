@@ -1,5 +1,5 @@
 import { AfterViewInit, Component, Input, OnInit } from '@angular/core';
-import { simpleJoke } from '../main-service.service';
+import { simpleJoke } from '../types';
 
 @Component({
   selector: 'app-joke',

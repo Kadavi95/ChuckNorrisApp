@@ -1,12 +1,8 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Subject } from 'rxjs'
-export type simpleJoke = {
-  icon_url : string,
-  id : string,
-  url : string,
-  value : string
-}
+import { simpleJoke } from './types';
+
 @Injectable({
   providedIn: 'root'
 })
